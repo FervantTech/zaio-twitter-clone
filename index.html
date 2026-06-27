@@ -1,0 +1,649 @@
+
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="icon" href="./assets/fav-icon.png">
+      <title>Twitter</title>
+    </head>
+    <body>
+      <!-- NAVBAR -->
+      <nav>
+        <div class="navbar-top">
+          
+          <div class="nav-logo">
+            <a href="index.html">
+              <img class="logo" src="./assets/navbar-icons/logo.svg" alt="logo" />
+            </a>
+          </div>
+          
+          <a href="index.html" class="nav-link">
+            <div class="nav-items">
+              <img src="./assets/navbar-icons/home.svg" alt="home">
+              <span class="nav-item-active">Home</span>
+            </div>
+          </a>
+          <a href="explore.html" class="nav-link">
+            <div class="nav-items">
+              <img src="./assets/navbar-icons/explore.svg" alt="explore">
+              <span>Explore</span>
+            </div>
+          </a>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/notifications.svg" alt="notifications">
+            <span>Notifications</span>
+          </div>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/chat.svg" alt="chat">
+            <span>Chat</span>
+          </div>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/grok.svg" alt="grok">
+            <span>Grok</span>
+          </div>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/bookmarks.svg" alt="bookmarks">
+            <span>Bookmarks</span>
+          </div>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/creator-studio.svg" alt="creator studio">
+            <span>Creator Studio</span>
+          </div>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/premium.svg" alt="premium">
+            <span>Premium</span>
+          </div>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/profile.svg" alt="profile">
+            <span>Profile</span>
+          </div>
+          
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/more.svg" alt="more">
+            <span>More</span>
+          </div>
+          
+          <div class="nav-post">
+            <button type="button" class="post-button" id="open-compose-modal">Post</button>
+          </div>
+        </div>
+        <div class="navbar-bottom">
+          <div class="nav-profile">
+            <div class="profile-picture">
+              <img src="./assets/navbar-icons/Photo.jpg" alt="profile-photo" />
+            </div>
+            
+            <div class="username">
+              <h3>Devon Lotter</h3>
+              <h4>@fervantech</h4>
+            </div>
+            
+          </div>
+          <div class="profile-icons">
+            <img src="./assets/navbar-icons/more-settings.svg" alt="more-settings">
+          </div>
+        </div>
+        
+        
+      </nav>
+      
+      <main>
+        <div class="main-feed">
+          <div class="content-type">
+            <h2 class="tab active-type">For you</h2>
+            <h2 class="tab">Following</h2>
+          </div>
+          <div class="posting-area">
+            <div class="posting-area-top">
+              <div class="profile-picture">
+                <img src="./assets/navbar-icons/Photo.jpg" alt="profile-photo" />
+              </div>
+              <div class="main-post-area">
+                <div class="typing-area">
+                  <span>What's happening?</span>
+                </div>
+              </div>
+            </div>
+            <div class="posting-area-bottom">
+              <div class="post-attachments">
+                <img src="./assets/posting-area-icons/media.svg" alt="media" />
+                <img src="./assets/posting-area-icons/gif.svg" alt="GIF" />
+                <img src="./assets/posting-area-icons/generate-image.svg" alt="Generate image" />
+              <img src="./assets/posting-area-icons/poll.svg" alt="Poll" />
+              <img src="./assets/posting-area-icons/emoji.svg" alt="Emoji" />
+              <img src="./assets/posting-area-icons/schedule.svg" alt="Schedule" />
+              <img src="./assets/posting-area-icons/location.svg" alt="Location" />
+              <img src="./assets/posting-area-icons/disclosure.svg" alt="Content disclosure" />
+              
+              
+            </div>
+            
+            <button type="button" class="post-button-small" id="open-compose-modal-small">Post</button>
+            
+          </div>
+          
+        </div>
+        <div class="show-posts-area">
+          <h3>Show 70 posts</h3>
+        </div>
+        <div id="timeline">
+        <div class="posts">
+          <div class="posts-top">
+            <div class="poster-profile">
+              <img src="https://pbs.twimg.com/profile_images/1826981451377557504/giskSTYQ_400x400.jpg" alt="poster profile icon" />
+            </div>
+            <div class="poster-post">
+              <div class="poster-name">
+                <div class="poster-name-info">
+                  <h4 class="creator-name">League of Legends Leaks & News</h4>
+                  <h4>@LeagueOfLeaks</h4>
+                  <h4 class="meta-dot">·</h4>
+                  <h4>3h</h4>
+                </div>
+                <div class="poster-settings">
+                  <img src="./assets/posting-area-icons/generate-image.svg" alt="Explain this post" />
+                  <img src="./assets/posting-area-icons/more.settings.svg" alt="More" />
+                </div>
+              </div>
+              <div class="poster-content">
+                
+                <h4>First details of the new League of Legends Classic Mode ‼️</h4>
+                
+                <h4>• 60 old champions playable.</h4>
+                <h4>• Old item, rune, and mastery systems.</h4>
+                <h4>• Original Summoner's Rift map.</h4>
+                <h4>• Separate account leveling system (1 - 30).</h4>
+                <h4>• Dedicated store with IP currency to unlock champions, runes, and</h4>
+                <h4><span class="showmore">Show more</span></h4>
+                
+              </div>
+              <div class="poster-media-1">
+                <img src="https://pbs.twimg.com/media/HLxksc7XwAA0mXm?format=jpg&name=medium" alt="post image" />
+              </div>
+            </div>
+          </div>
+          <div class="posts-bottom">
+            <div class="post-interactions">
+              <div class="post-interactions-left">
+                <div>
+                  <img src="./assets/post-icons/comment.svg" alt="comment">
+                  <h6>100</h6>
+                </div>
+                <div>
+            <img src="./assets/post-icons/repost.svg" alt="repost">
+            <h6>100</h6>  
+          </div>
+          
+          <div class="like-container">
+  <img class="like-button" src="./assets/post-icons/like.svg" alt="like">
+  <h6 class="like-count">100</h6>
+</div>
+          
+          <div>
+            <img src="./assets/post-icons/view.svg" alt="view">
+            <h6>15k</h6>
+          </div>
+          
+        </div>
+        <div class="post-interactions-right">
+          <img src="./assets/post-icons/bookmark.svg" alt="bookmark">
+          <img src="./assets/post-icons/share.svg" alt="share">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="posts">
+    <div class="posts-top">
+      <div class="poster-profile">
+        <img src="https://pbs.twimg.com/profile_images/2019465796120956928/urhhON2k_400x400.jpg" alt="poster profile icon" />
+      </div>
+      <div class="poster-post">
+        <div class="poster-name">
+          <div class="poster-name-info">
+            <h4 class="creator-name">Overwatch Cavalry</h4>
+            <h4>@OWCavalry</h4>
+            <h4 class="meta-dot">·</h4>
+            <h4>17h</h4>
+          </div>
+          <div class="poster-settings">
+            <img src="./assets/posting-area-icons/generate-image.svg" alt="Explain this post" />
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="More" />
+          </div>
+        </div>
+        <div class="poster-content">
+          <h4>Happy Birthday to Reinhardt, the valiant crusader of <span class="showmore">#Overwatch</span> 🛡️</h4>         
+        </div>
+        <div class="poster-media-1">
+          <img src="https://pbs.twimg.com/media/HLvBKhVWIAAGtW8?format=jpg&name=large" alt="post image" />
+        </div>
+      </div>
+    </div>
+    <div class="posts-bottom">
+      <div class="post-interactions">
+        <div class="post-interactions-left">
+          <div>
+            <img src="./assets/post-icons/comment.svg" alt="comment">
+            <h6>38</h6>
+          </div>
+          <div>
+            <img src="./assets/post-icons/repost.svg" alt="repost">
+            <h6>449</h6>  
+          </div>
+          <div class="like-container">
+            <img class="like-button" src="./assets/post-icons/like.svg" alt="like">
+            <h6 class="like-count">100</h6>
+          </div>
+          <div>
+            <img src="./assets/post-icons/view.svg" alt="view">
+            <h6>109k</h6>
+          </div>
+          
+        </div>
+        <div class="post-interactions-right">
+          <img src="./assets/post-icons/bookmark.svg" alt="bookmark">
+          <img src="./assets/post-icons/share.svg" alt="share">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="posts">
+    <div class="posts-top">
+      <div class="poster-profile">
+        <img src="https://pbs.twimg.com/profile_images/2021298690158374913/Wge7MBAg_400x400.jpg" alt="poster profile icon" />
+      </div>
+      <div class="poster-post">
+        <div class="poster-name">
+          <div class="poster-name-info">
+            <h4 class="creator-name">Overwatch</h4>
+            <h4>@PlayOverwatch </h4>
+            
+            <h4>Jun 25</h4>
+          </div>
+          <div class="poster-settings">
+            <img src="./assets/posting-area-icons/generate-image.svg" alt="Explain this post" />
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="More" />
+          </div>
+        </div>
+        <div class="poster-content">
+          <h4>The more you explore, the more you find 🌃</h4>        
+          <h4><br></h4>
+          <h4>What other hidden gems have you found on Neon Junction so far?</h4>
+        </div>
+        <div class="poster-media-4">
+          <img src="https://pbs.twimg.com/media/HLrcQyAWYAAGL9H?format=jpg&name=large" alt="post image" />
+          <img src="https://pbs.twimg.com/media/HLrcRG1XAAAtcv-?format=jpg&name=large" alt="post image" />
+          <img src="https://pbs.twimg.com/media/HLrcRahX0AA5Fwb?format=jpg&name=large" alt="post image" />
+          <img src="https://pbs.twimg.com/media/HLrcRsUWgAEwH-K?format=jpg&name=large" alt="post image" />
+        </div>
+      </div>
+    </div>
+    <div class="posts-bottom">
+      <div class="post-interactions">
+        <div class="post-interactions-left">
+          <div>
+            <img src="./assets/post-icons/comment.svg" alt="comment">
+            <h6>71</h6>
+          </div>
+          <div>
+            <img src="./assets/post-icons/repost.svg" alt="repost">
+            <h6>80</h6>  
+          </div>
+          
+          <div class="like-container">
+  <img class="like-button" src="./assets/post-icons/like.svg" alt="like">
+  <h6 class="like-count">100</h6>
+</div>
+          
+          <div>
+            <img src="./assets/post-icons/view.svg" alt="view">
+            <h6>131k</h6>
+          </div>
+          
+        </div>
+        <div class="post-interactions-right">
+          <img src="./assets/post-icons/bookmark.svg" alt="bookmark">
+          <img src="./assets/post-icons/share.svg" alt="share">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="posts">
+    <div class="posts-top">
+      <div class="poster-profile">
+        <img src="https://pbs.twimg.com/profile_images/2046261907233861632/HwvtzC_D_400x400.jpg" alt="poster profile icon" />
+      </div>
+      <div class="poster-post">
+        <div class="poster-name">
+          <div class="poster-name-info">
+            <h4 class="creator-name">Assassin's Creed</h4>
+            <h4>@assassinscreed</h4>
+            <h4 class="meta-dot">·</h4>
+            <h4>Jun 25</h4>
+          </div>
+          <div class="poster-settings">
+            <img src="./assets/posting-area-icons/generate-image.svg" alt="Explain this post" />
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="More" />
+          </div>
+        </div>
+        <div class="poster-content">
+          <h4>We're only a fortnight away from setting sail! 🏴‍☠️</h4>  
+          <br>
+          <h4>NO SPOILERS, but what can't you wait to experience first in Resynced?</h4>
+          <br>
+          <h4 class="showmore">#AssassinsCreed</h4>
+          
+          
+          
+          
+        </div>
+        <div class="poster-media-2">
+          <img src="https://pbs.twimg.com/media/HLmD0pDXUAANEJq?format=jpg&name=large" alt="post image" />
+        </div>
+      </div>
+    </div>
+    <div class="posts-bottom">
+      <div class="post-interactions">
+        <div class="post-interactions-left">
+          <div>
+            <img src="./assets/post-icons/comment.svg" alt="comment">
+            <h6>120</h6>
+          </div>
+          <div>
+            <img src="./assets/post-icons/repost.svg" alt="repost">
+            <h6>189</h6>  
+          </div>
+          
+          <div class="like-container">
+  <img class="like-button" src="./assets/post-icons/like.svg" alt="like">
+  <h6 class="like-count">100</h6>
+</div>
+          
+          <div>
+            <img src="./assets/post-icons/view.svg" alt="view">
+            <h6>77k</h6>
+          </div>
+          
+        </div>
+        <div class="post-interactions-right">
+          <img src="./assets/post-icons/bookmark.svg" alt="bookmark">
+          <img src="./assets/post-icons/share.svg" alt="share">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="posts">
+    <div class="posts-top">
+      <div class="poster-profile">
+        <img src="https://pbs.twimg.com/profile_images/1775288044419252224/tZFiSMbU_400x400.jpg" alt="poster profile icon" />
+      </div>
+      <div class="poster-post">
+        <div class="poster-name">
+          <div class="poster-name-info">
+            <h4 class="creator-name">NZXT</h4>
+            <h4>@NZXT</h4>
+            <h4 class="meta-dot">·</h4>
+            <h4>Jun 25</h4>
+          </div>
+          <div class="poster-settings">
+            <img src="./assets/posting-area-icons/generate-image.svg" alt="Explain this post" />
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="More" />
+          </div>
+        </div>
+        <div class="poster-content">
+          <h4>Need to get rid of this stuff since we’re moving offices.</h4>  
+          <br>
+          <h4>Who wants what?</h4>
+        </div>
+        <div class="poster-media-4">
+          <img src="https://pbs.twimg.com/media/HLxZOmrWUAA69dZ?format=jpg&name=large" alt="post image" />
+          <img src="https://pbs.twimg.com/media/HLxZPzmWIAAaUEG?format=jpg&name=large" alt="post image" />
+          
+        </div>
+      </div>
+    </div>
+    <div class="posts-bottom">
+      <div class="post-interactions">
+        <div class="post-interactions-left">
+          <div>
+            <img src="./assets/post-icons/comment.svg" alt="comment">
+            <h6>2.6k</h6>
+          </div>
+          <div>
+            <img src="./assets/post-icons/repost.svg" alt="repost">
+            <h6>143</h6>  
+          </div>
+          
+          <div class="like-container">
+  <img class="like-button" src="./assets/post-icons/like.svg" alt="like">
+  <h6 class="like-count">100</h6>
+</div>
+          
+          <div>
+            <img src="./assets/post-icons/view.svg" alt="view">
+            <h6>515k</h6>
+          </div>
+          
+        </div>
+        <div class="post-interactions-right">
+          <img src="./assets/post-icons/bookmark.svg" alt="bookmark">
+          <img src="./assets/post-icons/share.svg" alt="share">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="posts">
+    <div class="posts-top">
+      <div class="poster-profile">
+        <img src="./assets/navbar-icons/Photo.jpg" alt="poster profile icon" />
+      </div>
+      <div class="poster-post">
+        <div class="poster-name">
+          <div class="poster-name-info">
+            <h4 class="creator-name">Devon Lotter</h4>
+            <h4>@fervantech</h4>
+            <h4 class="meta-dot">·</h4>
+            <h4>Jun 25</h4>
+          </div>
+          <div class="poster-settings">
+            <img src="./assets/posting-area-icons/generate-image.svg" alt="Explain this post" />
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="More" />
+          </div>
+        </div>
+        <div class="poster-content">
+          <h4>I like turtles!</h4>  
+        </div>
+      </div>
+    </div>
+    <div class="posts-bottom">
+      <div class="post-interactions">
+        <div class="post-interactions-left">
+          <div>
+            <img src="./assets/post-icons/comment.svg" alt="comment">
+            <h6>67</h6>
+          </div>
+          <div>
+            <img src="./assets/post-icons/repost.svg" alt="repost">
+            <h6>100</h6>  
+          </div>
+          
+          <div class="like-container">
+  <img class="like-button" src="./assets/post-icons/like.svg" alt="like">
+  <h6 class="like-count">100</h6>
+</div>
+          
+          <div>
+            <img src="./assets/post-icons/view.svg" alt="view">
+            <h6>69k</h6>
+          </div>
+          
+        </div>
+        <div class="post-interactions-right">
+          <img src="./assets/post-icons/bookmark.svg" alt="bookmark">
+          <img src="./assets/post-icons/share.svg" alt="share">
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        </div>
+      </main>
+<div class="sidebar">
+  <div class="input-wrapper">
+    <img src="./assets/sidebar-icons/search.svg" class="input-icon" />
+    <input type="text" placeholder="Search" />
+  </div>
+  <div class="premium-box">
+    <h1>Subscribe to Premium</h1>
+    <h2>Get rid of ads, see your analytics, boost your replies and unlock 20+ features</h2>
+    <button class="subscribe-button">Subscribe</button>
+  </div>
+  
+  <div class="today-box">
+    <div class="today-box-header">
+      <h1>Today’s News</h1>
+      <img src="./assets/sidebar-icons/cross.svg" alt="close-icon">
+    </div>
+    <img src="./assets/today-news.png" alt="today news">
+  </div>
+  
+  <div class="football-trending-box">
+    <h1>Football</h1>
+    <img src="./assets/football-score.png" alt="football score">
+    <button class="rainbow-button">
+      <span class="rainbow-button-text">
+        Show more
+      </span>
+      <span class="rainbow-button-symbol">
+        <img src="./assets/sidebar-icons/arrow.svg" alt="arrow-symbol">
+      </span>
+    </button>
+    <h1  class="happening-text">What’s happening</h1>
+    <div class="trending-box">
+      <div class="trending-topic">
+        <h3>Trending in South Africa</h3>
+        <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings">
+      </div>
+      <h2>Yeye</h2>
+    </div>
+    <div class="trending-box">
+      <div class="trending-topic">
+        <h3>Trending in South Africa</h3>
+        <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings">
+      </div>
+      <h2>Where is Nigeria</h2>
+    </div>
+    <div class="trending-box">
+      <div class="trending-topic">
+        <h3>Trending in South Africa</h3>
+        <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings">
+      </div>
+      <h2>Jacinta</h2>
+    </div>
+    <div class="trending-box">
+      <div class="trending-topic">
+        <h3>Video game genres · Trending</h3>
+        <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings">
+      </div>
+      <h2>Susie</h2>
+    </div>
+    <span class="showmore">Show more</span>
+  </div>
+  <div class="follow-box">
+    <h1>Who to follow</h1>
+    <div class="follow-section">
+      <div class="follow-section-left">
+        <img src="https://pbs.twimg.com/profile_images/1999329314408726528/AxLAeyYZ_400x400.jpg" alt="follower-pic">
+        <div class="follow-section-text">
+          <h2>Gears of War</h2>
+          <h3>@GearsofWar</h3>
+        </div>
+      </div>
+      <div class="follow-section-right">
+        <button class="follow-button" >Follow</button>
+      </div>     
+    </div>
+    <div class="follow-section">
+      <div class="follow-section-left">
+        <img src="https://pbs.twimg.com/profile_images/1929897430750822401/Yr5lspCX_400x400.jpg" alt="follower-pic">
+        <div class="follow-section-text">
+          <h2>The Witcher</h2>
+          <h3>@thewitcher</h3>
+        </div>
+      </div>
+      <div class="follow-section-right">
+        <button class="follow-button" >Follow</button>
+      </div>
+    </div>
+    <div class="follow-section">
+      <div class="follow-section-left">
+        <img  class="person-photo"src="https://pbs.twimg.com/profile_images/1730352881344389120/VQ3ADJ26_400x400.jpg" alt="follower-pic">
+        <div class="follow-section-text">
+          <h2>Aaron Keller</h2>
+          <h3>@aaronkellerOW</h3>
+        </div>
+      </div>
+      <div class="follow-section-right">
+        <button class="follow-button" >Follow</button>
+      </div>
+      
+      
+    </div>
+    <span class="showmore">Show More</span>
+  </div>
+  <footer>
+  <span class="footer-link">Terms</span> 
+  <span class="spacer">·</span>
+  <span class="footer-link">Privacy
+  <span class="spacer">·</span>
+  <span class="footer-link">Cookies </span>
+  <span class="spacer">·</span>
+  <span class="footer-link">Accessibility </span>
+  <span class="spacer">·</span> 
+  <br>
+  <span class="footer-link">Ads Info </span>
+  <span class="spacer">·</span> 
+  <span class="footer-link">More ...</span>
+  <span class="spacer"></span>
+  <span>© 2026 X-Clone Corp.</span>
+</footer>
+</div>
+
+      <div class="compose-modal-overlay" id="compose-modal-overlay" hidden>
+        <div class="compose-modal" role="dialog" aria-labelledby="compose-modal-title" aria-modal="true">
+          <div class="compose-modal-header">
+            <button type="button" class="compose-modal-close" id="close-compose-modal" aria-label="Close">
+              <img src="./assets/sidebar-icons/cross.svg" alt="">
+            </button>
+          </div>
+          <div class="compose-modal-body">
+            <div class="compose-modal-profile">
+              <img src="./assets/navbar-icons/Photo.jpg" alt="profile photo">
+            </div>
+            <div class="compose-modal-input">
+              <textarea
+                id="compose-textarea"
+                maxlength="280"
+                placeholder="What's happening?"
+                rows="4"
+              ></textarea>
+            </div>
+          </div>
+          <div class="compose-modal-footer">
+            <span class="char-counter" id="char-counter">280</span>
+            <button type="button" class="compose-submit" id="compose-submit" disabled>Post</button>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
+<script src="script.js"></script>    

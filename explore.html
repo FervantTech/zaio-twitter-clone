@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/fav-icon.png" />
+    <title>Explore / Twitter</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-top">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img class="logo" src="./assets/navbar-icons/logo.svg" alt="logo" />
+          </a>
+        </div>
+
+        <a href="index.html" class="nav-link">
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/home.svg" alt="home" />
+            <span>Home</span>
+          </div>
+        </a>
+
+        <a href="explore.html" class="nav-link">
+          <div class="nav-items">
+            <img src="./assets/navbar-icons/explore.svg" alt="explore" />
+            <span class="nav-item-active">Explore</span>
+          </div>
+        </a>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/notifications.svg" alt="notifications" />
+          <span>Notifications</span>
+        </div>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/chat.svg" alt="chat" />
+          <span>Chat</span>
+        </div>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/grok.svg" alt="grok" />
+          <span>Grok</span>
+        </div>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/bookmarks.svg" alt="bookmarks" />
+          <span>Bookmarks</span>
+        </div>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/creator-studio.svg" alt="creator studio" />
+          <span>Creator Studio</span>
+        </div>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/premium.svg" alt="premium" />
+          <span>Premium</span>
+        </div>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/profile.svg" alt="profile" />
+          <span>Profile</span>
+        </div>
+
+        <div class="nav-items">
+          <img src="./assets/navbar-icons/more.svg" alt="more" />
+          <span>More</span>
+        </div>
+
+        <div class="nav-post">
+          <button type="button" class="post-button" id="open-compose-modal">Post</button>
+        </div>
+      </div>
+
+      <div class="navbar-bottom">
+        <div class="nav-profile">
+          <div class="profile-picture">
+            <img src="./assets/navbar-icons/Photo.jpg" alt="profile-photo" />
+          </div>
+          <div class="username">
+            <h3>Devon Lotter</h3>
+            <h4>@fervantech</h4>
+          </div>
+        </div>
+        <div class="profile-icons">
+          <img src="./assets/navbar-icons/more-settings.svg" alt="more-settings" />
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main-feed explore-feed">
+        <div class="explore-header">
+          <h1>Explore</h1>
+        </div>
+
+        <div class="explore-search">
+          <div class="input-wrapper explore-search-wrapper">
+            <img src="./assets/sidebar-icons/search.svg" class="input-icon" alt="" />
+            <input type="text" placeholder="Search" aria-label="Search" />
+          </div>
+        </div>
+
+        <div class="explore-categories">
+          <button type="button" class="explore-category active-category">For You</button>
+          <button type="button" class="explore-category">Trending</button>
+          <button type="button" class="explore-category">News</button>
+          <button type="button" class="explore-category">Sports</button>
+          <button type="button" class="explore-category">Entertainment</button>
+        </div>
+
+        <section class="explore-section">
+          <h2 class="explore-section-title">Trends for you</h2>
+
+          <div class="explore-trending-list">
+            <div class="trending-box explore-trending-item">
+              <div class="trending-topic">
+                <h3>Trending in South Africa</h3>
+                <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+              </div>
+              <h2>#Springboks</h2>
+              <h3 class="trend-post-count">42.1K posts</h3>
+            </div>
+
+            <div class="trending-box explore-trending-item">
+              <div class="trending-topic">
+                <h3>Technology · Trending</h3>
+                <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+              </div>
+              <h2>Cursor AI</h2>
+              <h3 class="trend-post-count">18.7K posts</h3>
+            </div>
+
+            <div class="trending-box explore-trending-item">
+              <div class="trending-topic">
+                <h3>Gaming · Trending</h3>
+                <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+              </div>
+              <h2>Overwatch 3</h2>
+              <h3 class="trend-post-count">9,842 posts</h3>
+            </div>
+
+            <div class="trending-box explore-trending-item">
+              <div class="trending-topic">
+                <h3>Music · Trending</h3>
+                <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+              </div>
+              <h2>Taylor Swift</h2>
+              <h3 class="trend-post-count">125K posts</h3>
+            </div>
+
+            <div class="trending-box explore-trending-item">
+              <div class="trending-topic">
+                <h3>Trending Worldwide</h3>
+                <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+              </div>
+              <h2>Climate Summit</h2>
+              <h3 class="trend-post-count">67.3K posts</h3>
+            </div>
+          </div>
+
+          <span class="showmore">Show more</span>
+        </section>
+
+        <section class="explore-section explore-follow-section">
+          <h2 class="explore-section-title">Who to follow</h2>
+
+          <div class="follow-section">
+            <div class="follow-section-left">
+              <img src="https://pbs.twimg.com/profile_images/1999329314408726528/AxLAeyYZ_400x400.jpg" alt="follower-pic" />
+              <div class="follow-section-text">
+                <h2>Gears of War</h2>
+                <h3>@GearsofWar</h3>
+              </div>
+            </div>
+            <div class="follow-section-right">
+              <button type="button" class="follow-button">Follow</button>
+            </div>
+          </div>
+
+          <div class="follow-section">
+            <div class="follow-section-left">
+              <img src="https://pbs.twimg.com/profile_images/1929897430750822401/Yr5lspCX_400x400.jpg" alt="follower-pic" />
+              <div class="follow-section-text">
+                <h2>The Witcher</h2>
+                <h3>@thewitcher</h3>
+              </div>
+            </div>
+            <div class="follow-section-right">
+              <button type="button" class="follow-button">Follow</button>
+            </div>
+          </div>
+
+          <div class="follow-section">
+            <div class="follow-section-left">
+              <img class="person-photo" src="https://pbs.twimg.com/profile_images/1730352881344389120/VQ3ADJ26_400x400.jpg" alt="follower-pic" />
+              <div class="follow-section-text">
+                <h2>Aaron Keller</h2>
+                <h3>@aaronkellerOW</h3>
+              </div>
+            </div>
+            <div class="follow-section-right">
+              <button type="button" class="follow-button">Follow</button>
+            </div>
+          </div>
+
+          <div class="follow-section">
+            <div class="follow-section-left">
+              <img class="person-photo" src="https://pbs.twimg.com/profile_images/1826981451377557504/giskSTYQ_400x400.jpg" alt="follower-pic" />
+              <div class="follow-section-text">
+                <h2>League of Legends Leaks & News</h2>
+                <h3>@LeagueOfLeaks</h3>
+              </div>
+            </div>
+            <div class="follow-section-right">
+              <button type="button" class="follow-button">Follow</button>
+            </div>
+          </div>
+
+          <span class="showmore">Show more</span>
+        </section>
+      </div>
+    </main>
+
+    <div class="sidebar">
+      <div class="input-wrapper">
+        <img src="./assets/sidebar-icons/search.svg" class="input-icon" alt="" />
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="premium-box">
+        <h1>Subscribe to Premium</h1>
+        <h2>Get rid of ads, see your analytics, boost your replies and unlock 20+ features</h2>
+        <button class="subscribe-button">Subscribe</button>
+      </div>
+
+      <div class="today-box">
+        <div class="today-box-header">
+          <h1>Today’s News</h1>
+          <img src="./assets/sidebar-icons/cross.svg" alt="close-icon" />
+        </div>
+        <img src="./assets/today-news.png" alt="today news" />
+      </div>
+
+      <div class="football-trending-box">
+        <h1>Football</h1>
+        <img src="./assets/football-score.png" alt="football score" />
+        <button class="rainbow-button">
+          <span class="rainbow-button-text">Show more</span>
+          <span class="rainbow-button-symbol">
+            <img src="./assets/sidebar-icons/arrow.svg" alt="arrow-symbol" />
+          </span>
+        </button>
+        <h1 class="happening-text">What’s happening</h1>
+        <div class="trending-box">
+          <div class="trending-topic">
+            <h3>Trending in South Africa</h3>
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+          </div>
+          <h2>Yeye</h2>
+        </div>
+        <div class="trending-box">
+          <div class="trending-topic">
+            <h3>Trending in South Africa</h3>
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+          </div>
+          <h2>Where is Nigeria</h2>
+        </div>
+        <div class="trending-box">
+          <div class="trending-topic">
+            <h3>Trending in South Africa</h3>
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+          </div>
+          <h2>Jacinta</h2>
+        </div>
+        <div class="trending-box">
+          <div class="trending-topic">
+            <h3>Video game genres · Trending</h3>
+            <img src="./assets/posting-area-icons/more.settings.svg" alt="more settings" />
+          </div>
+          <h2>Susie</h2>
+        </div>
+        <span class="showmore">Show more</span>
+      </div>
+      <div class="follow-box">
+        <h1>Who to follow</h1>
+        <div class="follow-section">
+          <div class="follow-section-left">
+            <img src="https://pbs.twimg.com/profile_images/1999329314408726528/AxLAeyYZ_400x400.jpg" alt="follower-pic" />
+            <div class="follow-section-text">
+              <h2>Gears of War</h2>
+              <h3>@GearsofWar</h3>
+            </div>
+          </div>
+          <div class="follow-section-right">
+            <button class="follow-button">Follow</button>
+          </div>
+        </div>
+        <div class="follow-section">
+          <div class="follow-section-left">
+            <img src="https://pbs.twimg.com/profile_images/1929897430750822401/Yr5lspCX_400x400.jpg" alt="follower-pic" />
+            <div class="follow-section-text">
+              <h2>The Witcher</h2>
+              <h3>@thewitcher</h3>
+            </div>
+          </div>
+          <div class="follow-section-right">
+            <button class="follow-button">Follow</button>
+          </div>
+        </div>
+        <div class="follow-section">
+          <div class="follow-section-left">
+            <img class="person-photo" src="https://pbs.twimg.com/profile_images/1730352881344389120/VQ3ADJ26_400x400.jpg" alt="follower-pic" />
+            <div class="follow-section-text">
+              <h2>Aaron Keller</h2>
+              <h3>@aaronkellerOW</h3>
+            </div>
+          </div>
+          <div class="follow-section-right">
+            <button class="follow-button">Follow</button>
+          </div>
+        </div>
+        <span class="showmore">Show More</span>
+      </div>
+      <footer>
+        <span class="footer-link">Terms</span>
+        <span class="spacer">·</span>
+        <span class="footer-link">Privacy</span>
+        <span class="spacer">·</span>
+        <span class="footer-link">Cookies</span>
+        <span class="spacer">·</span>
+        <span class="footer-link">Accessibility</span>
+        <span class="spacer">·</span>
+        <br />
+        <span class="footer-link">Ads Info</span>
+        <span class="spacer">·</span>
+        <span class="footer-link">More ...</span>
+        <span class="spacer"></span>
+        <span>© 2026 X-Clone Corp.</span>
+      </footer>
+    </div>
+
+    <div class="compose-modal-overlay" id="compose-modal-overlay" hidden>
+      <div class="compose-modal" role="dialog" aria-labelledby="compose-modal-title" aria-modal="true">
+        <div class="compose-modal-header">
+          <button type="button" class="compose-modal-close" id="close-compose-modal" aria-label="Close">
+            <img src="./assets/sidebar-icons/cross.svg" alt="" />
+          </button>
+        </div>
+        <div class="compose-modal-body">
+          <div class="compose-modal-profile">
+            <img src="./assets/navbar-icons/Photo.jpg" alt="profile photo" />
+          </div>
+          <div class="compose-modal-input">
+            <textarea
+              id="compose-textarea"
+              maxlength="280"
+              placeholder="What's happening?"
+              rows="4"
+            ></textarea>
+          </div>
+        </div>
+        <div class="compose-modal-footer">
+          <span class="char-counter" id="char-counter">280</span>
+          <button type="button" class="compose-submit" id="compose-submit" disabled>Post</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
